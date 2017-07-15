@@ -1,0 +1,29 @@
+*** STARTING NEW GAME ***
+*** STARTING NEW GAME ***
+Generating world using parameter set CREATE WORLD NOW = 4333333
+ Seed: 28QOvQvuQUKOcrBiKBxp
+ History Seed: bt8NO6fZM8dM4ngviV74
+ Name Seed: J2Ft1EtChXJC41WbnH4d
+ Creature Seed: GV8whHYp0cjTWNlUDh3A
+*** STARTING NEW GAME ***
+*** STARTING NEW GAME ***
+*** STARTING NEW GAME ***
+Generating world using parameter set CREATE WORLD NOW = 3333333
+ Seed: cqUm26oSuEUWummqC62y
+ History Seed: icuO4Ik6IE4gAkoUaUWo
+ Name Seed: WICCCk8ASAukAg4E0c0M
+ Creature Seed: KSMi0UKesYgCM62yooUi
+** Starting New Outpost **
+It has started raining.
+The weather has cleared.
+The stray dog scratches the river otter in the left front paw, lightly tapping the target!
+The stray dog scratches the river otter in the left rear leg, tearing the fat and bruising the muscle!
+The stray dog scratches the river otter in the upper body, denting the skin and bruising the fat!
+The stray dog scratches the river otter in the right rear leg, tearing the fat and bruising the muscle!
+The stray dog scratches the river otter in the left eye tooth, but the attack glances away!
+The force twists the head, bruising the skin!
+The stray dog attacks the river otter but He jumps away!
+The stray dog stands up.
+It has started raining.
+*** STARTING NEW GAME ***
+*** STARTING NEW GAME ***
