@@ -8,7 +8,7 @@ circumstances, unpack a new DF on top of an older one.
 
 Use these to control the automatic saving behavior in the dwarf fortress mode of game.  AUTOSAVE can be set to NONE, SEASONAL or YEARLY.  This updates your save at these intervals, so that some of your progress will be saved in case of system instability.  You can set AUTOBACKUP to YES if you want the updated save to be copied to another folder so that you'll have several copies of your world at different times.  Set AUTOSAVE_PAUSE to YES if you want the game to pause every time it autosaves.
 
-[AUTOSAVE:NONE]
+[AUTOSAVE:SEASONAL]
 [AUTOBACKUP:NO]
 [AUTOSAVE_PAUSE:NO]
 
@@ -35,9 +35,9 @@ You can change the option below to ALWAYS and NO.  More restrictive world parame
 Use these options to remove features from the game.  Permitted values are YES and NO.  Removal might speed the game up in the case of temperature and weather.
 
 [TEMPERATURE:YES]
-[WEATHER:YES]
-[ECONOMY:YES]
-[INVADERS:YES]
+[WEATHER:NO]
+[ECONOMY:NO]
+[INVADERS:NO]
 [CAVEINS:YES]
 [ARTIFACTS:YES]
 [ZERO_RENT:NO]
@@ -241,8 +241,8 @@ You can have your dwarves start/arrive without any labor types enabled here by s
 
 You can set the maximum population of your fortress here.  Keep in mind that your population must be at least 80 to get a king and 100 to obtain the current game features.  The strict cap also stops fort births.  Both caps can be violated by a few special cases, like the arrival of the monarch if you qualify.
 
-[POPULATION_CAP:200]
-[STRICT_POPULATION_CAP:220]
+[POPULATION_CAP:80]
+[STRICT_POPULATION_CAP:100]
 
 This allows you to control the number of babies+children in your fortress.  The first number is an absolute cap on the number of babies+children.  The second is a percentage of the current number of adults in your fortress (the default is the essentially meaningless 1000% here).  The lower number is used as the cap.  The cap only prevents further pregnancies, so migrant children, multiple births and existing pregnancies from old saves can still push you over the cap.  Setting either number to zero will disallow pregnancies in the fortress.
 

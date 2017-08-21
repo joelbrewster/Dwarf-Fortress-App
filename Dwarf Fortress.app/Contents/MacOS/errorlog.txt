@@ -1,1 +1,0 @@
-path fail: pike,191,37,128 -> 173,30,128: Id #8705:Path Goal Flee Terrain:Station None at 191,37,128
