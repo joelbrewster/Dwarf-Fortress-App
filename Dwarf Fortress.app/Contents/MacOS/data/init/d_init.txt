@@ -8,7 +8,7 @@ circumstances, unpack a new DF on top of an older one.
 
 Use these to control the automatic saving behavior in the dwarf fortress mode of game.  AUTOSAVE can be set to NONE, SEASONAL or YEARLY.  This updates your save at these intervals, so that some of your progress will be saved in case of system instability.  You can set AUTOBACKUP to YES if you want the updated save to be copied to another folder so that you'll have several copies of your world at different times.  Set AUTOSAVE_PAUSE to YES if you want the game to pause every time it autosaves.
 
-[AUTOSAVE:SEASONAL]
+[AUTOSAVE:NONE]
 [AUTOBACKUP:NO]
 [AUTOSAVE_PAUSE:NO]
 
@@ -35,9 +35,9 @@ You can change the option below to ALWAYS and NO.  More restrictive world parame
 Use these options to remove features from the game.  Permitted values are YES and NO.  Removal might speed the game up in the case of temperature and weather.
 
 [TEMPERATURE:YES]
-[WEATHER:NO]
-[ECONOMY:NO]
-[INVADERS:NO]
+[WEATHER:YES]
+[ECONOMY:YES]
+[INVADERS:YES]
 [CAVEINS:YES]
 [ARTIFACTS:YES]
 [ZERO_RENT:NO]
@@ -81,7 +81,7 @@ Use these to set the color of wounded body parts.  The format is <foreground col
 
 This controls the display of areas that are far below outside.  The format is SKY:<character>:<foreground color>:<background color>:<brightness>.  The <character> can be either an ASCII tile number or a character in quotes, like '#'.
 
-[SKY:247:3:0:0]
+[SKY:178:3:0:0]
 
 As above, for inside/subterranean areas.
 
@@ -89,40 +89,40 @@ As above, for inside/subterranean areas.
 
 Pillar tile, <character> as above.
 
-[PILLAR_TILE:199]
+[PILLAR_TILE:'O']
 
 Track tiles.  I at the end inverts the material colors.
 
-[TRACK_N:179]
-[TRACK_S:179]
-[TRACK_E:196]
-[TRACK_W:196]
-[TRACK_NS:179]
-[TRACK_NE:192]
-[TRACK_NW:217]
-[TRACK_SE:218]
-[TRACK_SW:191]
-[TRACK_EW:196]
-[TRACK_NSE:195]
-[TRACK_NSW:180]
-[TRACK_NEW:193]
-[TRACK_SEW:194]
-[TRACK_NSEW:158]
-[TRACK_RAMP_N:30]
-[TRACK_RAMP_S:30]
-[TRACK_RAMP_E:30]
-[TRACK_RAMP_W:30]
-[TRACK_RAMP_NS:30]
-[TRACK_RAMP_NE:30]
-[TRACK_RAMP_NW:30]
-[TRACK_RAMP_SE:30]
-[TRACK_RAMP_SW:30]
-[TRACK_RAMP_EW:30]
-[TRACK_RAMP_NSE:30]
-[TRACK_RAMP_NSW:30]
-[TRACK_RAMP_NEW:30]
-[TRACK_RAMP_SEW:30]
-[TRACK_RAMP_NSEW:30]
+[TRACK_N:208I]
+[TRACK_S:210I]
+[TRACK_E:198I]
+[TRACK_W:181I]
+[TRACK_NS:186I]
+[TRACK_NE:200I]
+[TRACK_NW:188I]
+[TRACK_SE:201I]
+[TRACK_SW:187I]
+[TRACK_EW:205I]
+[TRACK_NSE:204I]
+[TRACK_NSW:185I]
+[TRACK_NEW:202I]
+[TRACK_SEW:203I]
+[TRACK_NSEW:206I]
+[TRACK_RAMP_N:30I]
+[TRACK_RAMP_S:30I]
+[TRACK_RAMP_E:30I]
+[TRACK_RAMP_W:30I]
+[TRACK_RAMP_NS:30I]
+[TRACK_RAMP_NE:30I]
+[TRACK_RAMP_NW:30I]
+[TRACK_RAMP_SE:30I]
+[TRACK_RAMP_SW:30I]
+[TRACK_RAMP_EW:30I]
+[TRACK_RAMP_NSE:30I]
+[TRACK_RAMP_NSW:30I]
+[TRACK_RAMP_NEW:30I]
+[TRACK_RAMP_SEW:30I]
+[TRACK_RAMP_NSEW:30I]
 
 Tiles for the parts of trees.
 
@@ -216,8 +216,8 @@ Tiles for the parts of trees.
 [TREE_BRANCH_SEW_DEAD:194]
 [TREE_BRANCH_NSEW:197]
 [TREE_BRANCH_NSEW_DEAD:197]
-[TREE_TWIGS:158]
-[TREE_TWIGS_DEAD:158]
+[TREE_TWIGS:';']
+[TREE_TWIGS_DEAD:';']
 [TREE_CAP_RAMP:30]
 [TREE_CAP_RAMP_DEAD:30]
 [TREE_CAP_FLOOR1:249]
@@ -241,8 +241,8 @@ You can have your dwarves start/arrive without any labor types enabled here by s
 
 You can set the maximum population of your fortress here.  Keep in mind that your population must be at least 80 to get a king and 100 to obtain the current game features.  The strict cap also stops fort births.  Both caps can be violated by a few special cases, like the arrival of the monarch if you qualify.
 
-[POPULATION_CAP:80]
-[STRICT_POPULATION_CAP:100]
+[POPULATION_CAP:200]
+[STRICT_POPULATION_CAP:220]
 
 This allows you to control the number of babies+children in your fortress.  The first number is an absolute cap on the number of babies+children.  The second is a percentage of the current number of adults in your fortress (the default is the essentially meaningless 1000% here).  The lower number is used as the cap.  The cap only prevents further pregnancies, so migrant children, multiple births and existing pregnancies from old saves can still push you over the cap.  Setting either number to zero will disallow pregnancies in the fortress.
 
@@ -268,7 +268,7 @@ If you don't like the ,.`' ground, try setting this to NO.  The ground will turn
 
 If you'd like your engravings to start off looking the same (you can toggle them on individual later), set this to YES.
 
-[ENGRAVINGS_START_OBSCURED:YES]
+[ENGRAVINGS_START_OBSCURED:NO]
 
 If you get annoyed by seeing items like *<*sword*>* you can
 get rid of the outside ** by setting this to NO.

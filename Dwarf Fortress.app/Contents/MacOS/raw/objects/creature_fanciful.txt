@@ -4,7 +4,7 @@ creature_fanciful
 
 [CREATURE:CHIMERA]
 	[NAME:chimera:chimeras:chimeric]
-	[CREATURE_TILE:38][COLOR:2:0:1]
+	[CREATURE_TILE:'C'][COLOR:2:0:1]
 	[FANCIFUL]
 	[DOES_NOT_EXIST]
 	[PREFSTRING:terrifying features]
