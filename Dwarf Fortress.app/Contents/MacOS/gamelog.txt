@@ -1,1 +1,13 @@
 *** STARTING NEW GAME ***
+*** STARTING NEW GAME ***
+Generating world using parameter set CREATE WORLD NOW = 4333333
+ Seed: 8SeCC6oCeYsWIiIOY4Uq
+ History Seed: k2MEAusymEwAKGC4moqK
+ Name Seed: oCyC2AeSMA2KWWSY4cyq
+ Creature Seed: cGSg4ao8mIGS2S6EyWq6
+** Starting New Outpost **
+Digging designation cancelled: damp stone located.
+x2
+x3
+x4
+*** STARTING NEW GAME ***
